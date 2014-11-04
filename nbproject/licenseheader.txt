@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix} @file
+${licensePrefix} Project BUTPHP implementation of BUTx 
+${licensePrefix} MIT License
+${licensePrefix} @author Andrzej Mararok Wasiak (mararok@gmail.com)
+<#if licenseLast??>
+${licenseLast}
+</#if>
